@@ -1,0 +1,6 @@
+- name: Home
+  link: /
+- name: About
+  link: /about-droppin-dimes.html
+- name: Poems
+  link: /blog-droppin-dimes.html

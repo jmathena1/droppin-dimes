@@ -1,0 +1,50 @@
+---
+---
+
+<!doctype html>
+
+<html>
+	<head>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" charset='utf-8'>
+		<title>{{page.title}}</title>
+		<link rel="stylesheet", href="{{ '/assets/css/styles.css' | relative_url }}">
+		{% feed_meta %}
+		{% seo %}
+			
+	</head>
+	
+	<header id="header" class="container-flexbox">
+		<button class="return-jwm">
+			<a href="https://johnwmathena.com/blogs.html" class="return-jwm">
+				Return to<br>JWM<br>Dot Com
+			</a>
+		</button>
+		<b class='homepage-title'>
+		Droppin Dimes With Dope Rhymes
+		</b>
+		<a class="blog-logo-header" href="/">
+			<img title='Droppin Dimes' class='blog-logo-header' 
+				src="{{ '/assets/images/droppin-dimes-header.png' | relative_url }}"
+			alt='droppin dimes with dope rhymes written in block lettering with a quill in the middle'>
+		</a>
+	</header>
+	
+	<div>
+		<body>
+			<div id='navigation'>
+				{% include navigation.html %}
+			</div>
+			<div id='about' class='container-flexbox'>
+				{{ content }}
+			</div>
+		</body>
+	</div>
+	<footer class="website-footer">
+		<a href='https://www.linkedin.com/in/johnwmathena' target='_blank'><img id='social-media-photo' class="website-footer"
+			src="{{ '/assets/images/linkedin.png' | relative_url }}"></a>
+		<a href='https://www.github.com/jmathena1' target='_blank'><img id='social-media-photo' class="website-footer"
+			src="{{ '/assets/images/github.png' | relative_url }}" ></a>
+		<a href='https://www.twitter.com/JohnMathena6' target='_blank'><img id='social-media-photo' class="website-footer"
+			src="{{ '/assets/images/twitter.png' | relative_url }}"></a>
+	</footer>
+</html>
