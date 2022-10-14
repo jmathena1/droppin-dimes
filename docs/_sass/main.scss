@@ -43,46 +43,16 @@ html {
 	width: 100%;
 	max-width: 100%;
 	display: flex;
+	justify-content: space-between;
+	align-items: center;
 	flex-grow: 1;
-}
-
-.return-jwm {
-	width: 33%;
-	display: flex;
-	font-family: georgia, times-new-roman;
-	font-size: 14px;
-	background-color: #acad97;
-	color: #000000;
-	margin-right: auto;
-	border: none;
-}
-
-a.return-jwm {
-	width: 60px;
-	text-decoration: none;
-	border: 3px solid black;
-	text-align: center;
-	padding: 5px;
-}
-
-.return-jwm:hover {
-	color: #F0ECE2;
 }
 
 .homepage-title {
 	width: 33%;
 	display: flex;
-	font-size: 28px;
+	font-size: 30px;
 	text-align: center;
-}
-
-.blog-logo-header {
-	display: flex;
-	width: 33%;
-	height: 100%;
-	max-width: 100%;
-	margin-left: auto;
-	margin-top: 0px;
 }
 
 .website-footer {
@@ -110,15 +80,16 @@ a.return-jwm {
 }
 
 .nav-bar-menu {
-	width: 33%;
+	width: 100%;
 	max-width: 100%;
 	display: flex;
 }
 
 .nav-bar-item {
-	width: 33%;
 	display: flex;
-	font-size: 22px;
+	font-size: 24px;
+	padding-left: 1vw;
+	padding-right: 1vw;
 }
 
 a.nav-bar-menu {
@@ -198,6 +169,10 @@ a.nav-bar-menu:hover {
 .blog-post-content {
 	width: 75%;
 	margin: auto;
+}
+
+.blog-header {
+	text-align: center;
 }
 
 .solid-port-section-divider {
