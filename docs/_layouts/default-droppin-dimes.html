@@ -14,26 +14,16 @@
 	</head>
 	
 	<header id="header" class="container-flexbox">
-		<button class="return-jwm">
-			<a href="https://johnwmathena.com/blogs.html" class="return-jwm">
-				Return to<br>JWM<br>Dot Com
-			</a>
-		</button>
 		<b class='homepage-title'>
-		Droppin Dimes With Dope Rhymes
+		Droppin Dimes
 		</b>
-		<a class="blog-logo-header" href="/">
-			<img title='Droppin Dimes' class='blog-logo-header' 
-				src="{{ '/assets/images/droppin-dimes-header.png' | relative_url }}"
-			alt='droppin dimes with dope rhymes written in block lettering with a quill in the middle'>
-		</a>
+		<div id='navigation'>
+			{% include navigation.html %}
+		</div>
 	</header>
 	
 	<div>
 		<body>
-			<div id='navigation'>
-				{% include navigation.html %}
-			</div>
 			<div>
 				{{ content }}
 			</div>
