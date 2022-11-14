@@ -14,11 +14,13 @@ greek villa - #F0ECE2
 @media screen and (max-width: 415px) {
 	.homepage-title {
 		font-size: 20px !important;
-		width: 75% !important;
-		padding-left: 8vw !important;
+		width: 75% !important;;
 		text-align: center;
 	}
-	.blog-logo-header {opacity: 0; width: auto !important; height: auto! important;}
+	.blog-logo-header {
+		opacity: 0; 
+		width: auto !important; 
+		height: auto !important;}
 	.nav-bar-menu {
 		width: 75% !important;
 	}
@@ -26,14 +28,17 @@ greek villa - #F0ECE2
 		font-size: 14px !important;
 	}
 	img.blog-logo-home {
-	width: 50%;
-	height: 50%;
-	display: block;
+		width: 50%;
+		height: 50%;
+		display: block;
+	}
+	#about.container-flexbox{
+		font-size: 18px !important;
 	}
 }
 
 html {
-	background-color: #acad97;
+	background-color: #F0ECE2;
 	font-family: georgia, times-new-roman;
 	overflow-y: scroll;
 }
@@ -59,7 +64,6 @@ html {
 	font-family: georgia, times-new-roman;
 	text-align: center;
 	color: #000000;
-	background-color: #acad97;
 	width: 100%;
 	max-width: 100%;
 }
@@ -98,12 +102,11 @@ a.nav-bar-menu {
 }
 
 a.nav-bar-menu:hover {
-	color: #F0ECE2;
 	text-decoration: underline;
 }
 
 .current-page {
-	color: #F0ECE2;
+	color: #000000;
 	text-decoration: underline;
 }
 
@@ -120,6 +123,7 @@ a.nav-bar-menu:hover {
 	justify-content: center;
 	align-items: center;
 	flex-flow: column nowrap;
+	font-size: 22px;	
 }
 
 .about-picture {
@@ -151,10 +155,6 @@ a.nav-bar-menu:hover {
 	flex-flow: column nowrap;
 }
 
-.post-menu-item-header {
-
-}
-
 .post-menu-item-link {
 	color: #000000;
 	text-decoration: none;
@@ -162,11 +162,11 @@ a.nav-bar-menu:hover {
 }
 
 .post-menu-item-link:hover {
-	color: #F0ECE2;
 	text-decoration: underline;
 }
 
 .blog-post-content {
+	font-size: 20px;
 	width: 75%;
 	margin: auto;
 }
