@@ -3,7 +3,7 @@
 
 <!doctype html>
 
-<html>
+<html class="website-grid">
 	<head>
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" charset='utf-8'>
 		<title>{{page.title}}</title>
@@ -13,7 +13,7 @@
 			
 	</head>
 	
-	<header id="header" class="container-flexbox">
+	<header class="container-flexbox">
 		<b class='homepage-title'>
 		Droppin Dimes
 		</b>
@@ -21,14 +21,11 @@
 			{% include navigation.html %}
 		</div>
 	</header>
-	
-	<div>
-		<body>
-			<div>
-				{{ content }}
-			</div>
-		</body>
-	</div>
+
+	<main>
+		{{ content }}
+	</main>
+
 	<footer class="website-footer">
 		<a href='https://www.linkedin.com/in/johnwmathena' target='_blank'><img id='social-media-photo' class="website-footer"
 			src="{{ '/assets/images/linkedin.png' | relative_url }}"></a>

@@ -10,12 +10,16 @@ greek villa - #F0ECE2
   .nav-bar-menu { width: 75% !important; }
   .nav-bar-item { font-size: 14px !important; }
   img.blog-logo-home { width: 50%; height: 50%; display: block; }
-  #about.container-flexbox { font-size: 18px !important; } }
+  #about.container-flexbox { font-size: 18px !important; }
+  .blog-post-content { width: 75% !important; }
+  .about-page-content { width: 75% !important; } }
 html { background-color: #F0ECE2; font-family: georgia, times-new-roman; overflow-y: scroll; }
 
-.container-flexbox { height: 100%; width: 100%; max-width: 100%; display: flex; justify-content: space-between; align-items: center; flex-grow: 1; }
+.website-grid { display: grid; grid-template-rows: repeat(auto, 3); }
 
-.homepage-title { width: 33%; display: flex; font-size: 30px; text-align: center; }
+.container-flexbox { width: 100%; max-width: 100%; display: flex; justify-content: space-between; align-items: center; }
+
+.homepage-title { width: 33%; display: flex; font-size: 36px; text-align: center; }
 
 .website-footer { font-family: georgia, times-new-roman; text-align: center; color: #000000; width: 100%; max-width: 100%; }
 
@@ -27,7 +31,7 @@ html { background-color: #F0ECE2; font-family: georgia, times-new-roman; overflo
 
 .nav-bar-menu { width: 100%; max-width: 100%; display: flex; }
 
-.nav-bar-item { display: flex; font-size: 24px; padding-left: 1vw; padding-right: 1vw; }
+.nav-bar-item { display: flex; font-size: 30px; padding-left: 1vw; padding-right: 1vw; }
 
 a.nav-bar-menu { color: #000000; text-decoration: none; }
 
@@ -35,26 +39,34 @@ a.nav-bar-menu:hover { text-decoration: underline; }
 
 .current-page { color: #000000; text-decoration: underline; }
 
-.blog-logo-home { display: block; width: 25%; max-width: 100%; height: 25%; margin-left: auto; margin-right: auto; }
+.blog-logo-home { display: block; width: 25%; max-width: 100%; height: 50%; margin-left: auto; margin-right: auto; }
 
-#about.container-flexbox { justify-content: center; align-items: center; flex-flow: column nowrap; font-size: 22px; }
+.page-container { display: flex; width: 100%; justify-content: center; }
+
+.about-page-content { width: 75%; margin: auto; }
+
+p.about-page-content { font-size: 20px; }
 
 .about-picture { max-width: auto; height: auto; width: 50%; display: block; justify-content: center; margin-left: auto; margin-right: auto; }
 
 #post.container-flexbox { display: flex; width: 100%; justify-content: center; list-style: none; }
 
-.post-menu { width: 33%; max-width: 100%; display: flex; }
+.post-menu { width: 33%; max-width: 100%; display: flex; flex-flow: column; }
 
-.post-menu-item { width: 100%; display: flex; flex-flow: column nowrap; }
+.post-menu-item { width: 100%; display: flex; flex-flow: column wrap; }
 
 .post-menu-item-link { color: #000000; text-decoration: none; justify-content: center; }
 
 .post-menu-item-link:hover { text-decoration: underline; }
 
-.blog-post-content { font-size: 20px; width: 75%; margin: auto; }
+.blog-post-content { text-align: center; font-size: 20px; width: 50%; margin: auto; }
 
 .blog-header { text-align: center; }
 
 .solid-port-section-divider { border-top: 3px solid #000000; }
 
 .solid-blog-section-divider { border-top: 1.5px solid #000000; width: 25%; }
+
+a { color: #ff48a5; text-decoration: none; }
+
+a:hover { text-decoration: underline; }
