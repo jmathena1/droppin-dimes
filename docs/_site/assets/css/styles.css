@@ -12,7 +12,8 @@ greek villa - #F0ECE2
   img.blog-logo-home { width: 50%; height: 50%; display: block; }
   #about.container-flexbox { font-size: 18px !important; }
   .blog-post-content { width: 75% !important; }
-  .about-page-content { width: 75% !important; } }
+  .about-page-content { width: 75% !important; }
+  .post-menu { width: 75% !important; } }
 html { background-color: #F0ECE2; font-family: georgia, times-new-roman; overflow-y: scroll; }
 
 .website-grid { display: grid; grid-template-rows: repeat(auto, 3); }
